@@ -1,0 +1,24 @@
+{
+  "name": "forge-app-example",
+  "version": "1.0.0",
+  "description": "Example Forge app",
+  "scripts": {
+    "start": "nodemon --watch src --ext ts --exec \"ts-node src/index.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@forgeapp/sdk": "^0.1.1",
+    "express": "^4.21.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "@types/ws": "^8.5.12",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
